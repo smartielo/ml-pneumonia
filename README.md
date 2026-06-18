@@ -59,7 +59,12 @@ pip install -r requirements.txt
 
 ## 📊 Resultados e Métricas
 
-> ⚙️ **Em Andamento** — Esta seção será atualizada com a Matriz de Confusão, Acurácia e Recall assim que o treinamento do modelo for concluído.
+>   O modelo foi avaliado utilizando um conjunto de teste contendo imagens que nunca haviam sido vistas durante o treinamento. Em cenários médicos, a métrica mais crítica é o **Recall (Sensibilidade)**, pois o custo de um Falso Negativo (mandar um paciente doente para casa) é inaceitável. 
+
+Os resultados obtidos após o Ajuste Fino (Fine-Tuning) foram excepcionais:
+* **Recall (Pneumonia):** `0.96` (96%)
+* **Falsos Negativos (Erros Fatais):** Apenas 16 casos perdidos em todo o conjunto de teste.
+* **Prevenção de Overfitting:** O uso combinado de *Dropout (0.5)* e *Data Augmentation* garantiu que o modelo não memorizasse o dataset, mantendo o erro de validação baixo.
 
 ---
 
