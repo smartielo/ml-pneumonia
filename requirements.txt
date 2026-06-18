@@ -1,0 +1,17 @@
+Dependencias principais para Visao Computacional e Deep Learning
+
+tensorflow==2.15.0
+numpy==1.26.4
+
+Bibliotecas para visualizacao de dados e graficos
+
+matplotlib==3.8.4
+seaborn==0.13.2
+
+Biblioteca para metricas de avaliacao medica (Matriz de Confusao, Recall)
+
+scikit-learn==1.4.2
+
+Biblioteca para manipulacao avancada de imagens (usada no Grad-CAM)
+
+opencv-python==4.9.0.80

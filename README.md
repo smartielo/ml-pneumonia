@@ -42,8 +42,8 @@ Certifique-se de ter o **Python** instalado. É recomendado o uso de um ambiente
 
 **1. Clone este repositório:**
 ```bash
-git clone https://github.com/SEU_USUARIO/pneumonia-detection.git
-cd pneumonia-detection
+git clone https://github.com/smartielo/ml-pneumonia.git
+cd ml-pneumonia
 ```
 
 **2. Instale as dependências:**
